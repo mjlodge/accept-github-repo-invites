@@ -17,8 +17,8 @@ Copy the PAT and then paste it into the following command to run the script:
 
 GITHUB_TOKEN="your-token-here" ./accept_repo_invitations.sh
 
-The script will accept up to 100 invitations in a single run. If you have >100 invitations,
-just run the script again and it will accept the next 100. Keep going until there are
-no invitations left.
+The GitHub API limits the number of invitations returned, so if you have many invitations
+you won't see all of them accepted in a single run of this script. Just run the script again and it will
+accept the next batch. Keep going until there are no invitations left.
 
 Finally, delete the PAT you created for security.
