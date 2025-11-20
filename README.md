@@ -10,7 +10,7 @@ all of them one-by-one in the UI.
 # Usage
 
 In GitHub's UI go to Settings->Developer Settings. Create a "Classic" PAT for your account and
-git it repo and admin privileges. Very important: do not create a fine-grained PAT, which
+give it repo and admin privileges. Very important: do not create a fine-grained PAT, which
 is scoped to a single repo -- it won't work for this script.
 
 Copy the PAT and then paste it into the following command to run the script:
