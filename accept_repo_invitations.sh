@@ -1,9 +1,11 @@
-#!/usr/bin/env bash
+#!/bin/bash
 set -euo pipefail
 
 # Usage:
-#   export GITHUB_TOKEN=ghp_yourTokenHere
-#   ./accept_repo_invitations.sh
+#   GITHUB_TOKEN="YourTokenHere" ./accept_repo_invitations.sh
+
+# (c) Copyright 2025 Mathew Lodge
+# Released under MIT open source license. See LICENSE file for details
 
 : "${GITHUB_TOKEN:?Error: GITHUB_TOKEN is not set}"
 
